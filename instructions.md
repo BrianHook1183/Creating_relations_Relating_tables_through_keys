@@ -44,7 +44,7 @@ Write a query to create a table called concerts in src/concerts.sql. It should h
 * A concert_name field with a varying character datatype, a character limit of 255 characters.
 * A concert_date field with a date datatype.
 
-### Create a join table called artists_concerts
+### artists_concerts
 
 Create a many-to-many relationship between the artists and concerts tables (i.e., an artist can be scheduled to perform at various concerts, and a concert can have many artists performing in it). To do this, create a join table called artists_concerts in src/artists_concerts.sql with the following fields:
 
